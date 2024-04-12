@@ -12,7 +12,7 @@ function Header() {
       </div>
       <div className="flex items-center gap-4">
         <DarkModeSwitch />
-        <Link href="/">
+        <Link href="/" className="flex items-center gap-1">
           <span className="text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg">
             IMDB
           </span>
