@@ -2,7 +2,10 @@ import Link from "next/link";
 
 function MenuItem({ title, address, Icon }) {
   return (
-    <Link href={address} className="hover:text-amber-500">
+    <Link
+      href={address}
+      className="hover:text-amber-500 dark:hover:text-[#F5C518] "
+    >
       <Icon className="text-2xl sm:hidden" />
       <p className="uppercase hidden sm:inline text-sm">{title}</p>
     </Link>

@@ -1,5 +1,4 @@
 import Results from "@/components/Results";
-
 const API_KEY = process.env.API_KEY;
 
 const page = async ({ searchParams }) => {
@@ -25,7 +24,7 @@ const page = async ({ searchParams }) => {
   const results = data.results;
 
   return (
-    <div>
+    <div className="">
       <Results results={results} />
     </div>
   );
